@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+#container {
+    margin: 0;
+    background: #F4F4F4;
+}
+
+#conversion-section {
+    width: 100%;
+    /* max-width: 550px;
+    min-height: 285px; */
+    background: #6943FF;
+    margin: 0 auto;
+}
+
+#coversion-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#coversion-title {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#metric-input {
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-size: 58px;
+    line-height: 24.4px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    background: #6943FF;
+}
+
+#metric-btn {
+    border: none;
+    padding: 12px 33px;
+    background: white;
+    color: #3D3D3D;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#metrics-conversion-info {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 15px; */
+}
+
+.conversion-info {
+    width: 100%;
+    /* max-width: 500px;
+    min-height: 108px; */
+    background: white;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+p {
+    color: #5A537B;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.info {
+    color: #353535;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-weight: lighter;
+}
